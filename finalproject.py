@@ -5,7 +5,7 @@ d = {chr(i): i for i in range(255)}
 c = {i: chr(i) for i in range(255)}
 
 # Reading the image
-x = cv2.imread(r"C:\Users\jyoth\OneDrive\Desktop\New folder\steganograpy.jpeg")
+x = cv2.imread(r"C:\Users\manikanta\OneDrive\Desktop\New folder\steganograpy.jpeg")
 i, j, k = x.shape
 print(i, j, k)
 
